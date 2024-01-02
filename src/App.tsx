@@ -1,13 +1,13 @@
 import React from "react";
+import { Button } from "./components/ui/button";
 
 const App = () => {
   return (
-    <div className="card bg-base-100 shadow-xl">
-      <h2 className="card-title text-white">Test Title</h2>
-      <p className="text-lg font-medium">Test Content</p>
-      <div className="card-actions">
-        <button className="btn btn-primary">Click Me</button>
-      </div>
+    <div>
+      <h1>App</h1>
+      <Button variant="destructive" className="ml-4">
+        Testing Shad-cn UI
+      </Button>
     </div>
   );
 };
