@@ -5,7 +5,7 @@ const App = () => {
     <div>
       <h1>App</h1>
       <Button variant="destructive" className="ml-4 uppercase">
-        Testing Shad-cn UI
+        Trying bitbucket
       </Button>
     </div>
   );
